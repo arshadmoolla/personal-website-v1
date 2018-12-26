@@ -1,0 +1,15 @@
+.message {
+    margin-top: 150px;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.calendar-img {
+    width: 220px;
+}
+
+@media (max-width: 805px) {
+    .calendar-img {
+        width: 110px;
+    }
+}

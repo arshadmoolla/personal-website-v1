@@ -1,0 +1,150 @@
+.start {
+    margin-top: 120px;
+}
+
+#start-id {
+    margin-top: 0px;
+}
+
+.services-heading {
+    font-size: 37px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(to right, #1488cc, #2b56b2, #2b56b2, #1488cc);
+    padding: 4px;
+}
+
+.services {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.h1-services {
+    font-size: 21px;
+    color: #1488cc;
+}
+
+.service1,
+.service2,
+.service3,
+.service4,
+.service5,
+.service6 {
+    background: #000;
+    color: #fff;
+    opacity: 0.9;
+    margin: 10px;
+    padding: 25px;
+    text-align: center;
+    flex: 1;
+    box-shadow: 2px 2px 5px #888888;
+    line-height: 1.5;
+    font-size: 17px;
+    /* border-radius: 6px; */
+}
+
+.fa-wrench,
+.fa-sort-amount-up,
+.fa-clock,
+.fa-envelope-open,
+.fa-search,
+.fa-shopping-bag {
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+.more-specific {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.alarm-clock {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+.reward {
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.bubble {
+    width: 230px;
+    margin-bottom: 50px;
+    ;
+}
+
+@media (max-width: 805px) {
+    .start {
+        margin-top: 80px;
+    }
+
+    .services {
+        flex-direction: column;
+    }
+
+    .services-heading {
+        font-size: 19px;
+        text-align: center;
+        margin-bottom: 15px;
+        padding-right: 7px;
+        padding-left: 7px;
+    }
+
+    .h1-services {
+        font-size: 16.5px;
+    }
+
+    .service1,
+    .service2,
+    .service3,
+    .service4,
+    .service5,
+    .service6 {
+        margin: 0px 7px 17px 7px;
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .fa-wrench,
+    .fa-sort-amount-up,
+    .fa-clock,
+    .fa-envelope-open,
+    .fa-search,
+    .fa-shopping-bag {
+        font-size: 28px;
+        margin-bottom: 15px;
+        padding-top: 3px;
+    }
+
+    .more-specific {
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .reward {
+        font-size: 17px;
+        margin: 10px;
+    }
+
+    .alarm-clock {
+        width: 70px;
+    }
+
+    .bubble {
+        width: 160px;
+        margin-bottom: 30px;
+        ;
+    }
+}
